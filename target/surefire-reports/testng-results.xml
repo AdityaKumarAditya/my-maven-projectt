@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-04T23:07:32 MEZ" name="Surefire suite" finished-at="2025-01-04T23:07:36 MEZ" duration-ms="3914">
+  <suite started-at="2025-01-07T17:29:09 MEZ" name="Surefire suite" finished-at="2025-01-07T17:29:12 MEZ" duration-ms="3520">
     <groups>
     </groups>
-    <test started-at="2025-01-04T23:07:32 MEZ" name="Surefire test" finished-at="2025-01-04T23:07:36 MEZ" duration-ms="3914">
+    <test started-at="2025-01-07T17:29:09 MEZ" name="Surefire test" finished-at="2025-01-07T17:29:12 MEZ" duration-ms="3520">
       <class name="com.example.my_maven_project.WebAppTest">
-        <test-method signature="testLoginPage()[pri:0, instance:com.example.my_maven_project.WebAppTest@3967e60c]" started-at="2025-01-04T23:07:32 MEZ" name="testLoginPage" finished-at="2025-01-04T23:07:36 MEZ" duration-ms="3848" status="FAIL">
+        <test-method signature="testLoginPage()[pri:0, instance:com.example.my_maven_project.WebAppTest@7adda9cc]" started-at="2025-01-07T17:29:09 MEZ" name="testLoginPage" finished-at="2025-01-07T17:29:12 MEZ" duration-ms="3443" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
@@ -39,7 +39,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
-at com.example.my_maven_project.WebAppTest.testLoginPage(WebAppTest.java:14)
+at com.example.my_maven_project.WebAppTest.testLoginPage(WebAppTest.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
