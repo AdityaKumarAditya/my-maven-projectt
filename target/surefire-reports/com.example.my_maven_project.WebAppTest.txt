@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.my_maven_project.WebAppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.257 s <<< FAILURE! -- in com.example.my_maven_project.WebAppTest
-com.example.my_maven_project.WebAppTest.testLoginPage -- Time elapsed: 3.458 s <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.560 s <<< FAILURE! -- in com.example.my_maven_project.WebAppTest
+com.example.my_maven_project.WebAppTest.testLoginPage -- Time elapsed: 4.664 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
 Current browser version is 131.0.6778.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
