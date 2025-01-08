@@ -47,7 +47,7 @@ public class WebAppTest {
             wait.until(ExpectedConditions.urlToBe("https://example.com/dashboard"));
         } catch (TimeoutException e) {
             System.out.println("Dashboard URL did not load in time.");
-            driver.quit();
+       
             return; // Exit test if the page did not load
         }
 
