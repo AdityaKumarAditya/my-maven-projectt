@@ -51,9 +51,9 @@ public class WebAppTest {
             return; // Exit test if the page did not load
         }
 
-        // Validate results
+        // Validate results with a descriptive assertion message
         String expectedUrl = "https://example.com/dashboard";
-        assert driver.getCurrentUrl().equals(expectedUrl);
+        assert driver.getCurrentUrl().equals(expectedUrl) : "Expected URL: " + expectedUrl + ", but found: " + driver.getCurrentUrl();
 
         // Close browser
         driver.quit();
