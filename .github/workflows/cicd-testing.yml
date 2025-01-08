@@ -1,12 +1,12 @@
-name: Testing Pipeline
+name: cicd-testing Pipeline
 
 on:
   push:
     branches:
-      - testing-branch
+      - independent-branch
   pull_request:
     branches:
-      - testing-branch
+      - independent-branch
 
 jobs:
   build:
