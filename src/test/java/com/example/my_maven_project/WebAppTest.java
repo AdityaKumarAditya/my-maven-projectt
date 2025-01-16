@@ -2,6 +2,9 @@ package com.example.my_maven_project;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -9,7 +12,6 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.TimeoutException;
-import java.time.Duration;
 
 public class WebAppTest {
     @Test
@@ -54,6 +56,9 @@ public class WebAppTest {
         // Validate results
         String expectedUrl = "https://example.com/dashboard";
         assert driver.getCurrentUrl().equals(expectedUrl);
+
+        // Print message indicating success
+        System.out.println("Login test passed, dashboard loaded!");
 
         // Close browser
         driver.quit();
